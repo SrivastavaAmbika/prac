@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="./js/calc.js"></script>
+    <script src="./js/logic.js"></script>
+</head>
+<body>
+   <table>
+       <tr>
+           <td>
+               <lable>First Number</lable>
+               
+           </td>
+           <td><input type="text" id="first" placeholder="enter the firsst number"></td>
+       </tr>
+       <tr>
+           <td><label for="">Second Number</label></td>
+           <td><input type="text" id="second" placeholder="enter the second number"></td>
+       </tr>
+       <tr>
+           <td> <label for=""> result</label></td>
+           <td><span id="result"></span></td>
+           <table><tr><td>
+               <button onclick="compute('add')">+</button></td>
+               <td><button onclick="compute('sub')">-</button></td>
+               <td><button onclick="compute('multi')">*</button></td>
+             <td><button onclick="compute('divide')">/</button></td>  
+           </tr></table>
+       </tr>
+   </table> 
+</body>
+</html>
